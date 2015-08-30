@@ -1,0 +1,57 @@
+*{
+    font-family: arial, serif;
+}
+p{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px;
+    font-style: italic;
+    font-size: x-large;
+    background-color: rgb(255, 241, 150);
+}
+#todosList {
+    background-color: rgb(240, 230, 140);
+    margin: auto;
+    border: 3px ridge rgb(100, 149, 237);
+    border-radius: 50px;
+    height: 300px;
+    width: 800px;
+}
+
+#buttons {
+    margin: auto;
+    height: 100px;
+    width: 700px;
+    border: 3px ridge rgb(100, 149, 237);
+    border-radius: 30px;
+    background-color: rgb(240, 230, 140);
+}
+
+#delete {
+    margin: 25px 40px 25px auto;
+    float: right;
+    height: 50px;
+    width: 100px;
+    border: 2px ridge rgba(17, 17, 37, 1);
+    border-radius: 10px;
+    background-color: rgb(192, 104, 0);
+}
+
+#deleteDone {
+    margin: 25px auto 25px 40px;
+    float: left;
+    height: 50px;
+    width: 100px;
+    border: 2px ridge rgba(17, 17, 37, 1);
+    border-radius: 10px;
+    background-color: rgb(192, 104, 0);
+}
+
+#title {
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    height: inherit;
+    width: 450px;
+}
