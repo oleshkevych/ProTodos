@@ -38,7 +38,7 @@ p{
 }
 
 #deleteDone {
-    margin: 25px auto 25px 40px;
+    margin: 25px auto 25px 210px;
     float: left;
     height: 50px;
     width: 100px;
@@ -54,4 +54,36 @@ p{
     margin-bottom: 50px;
     height: inherit;
     width: 450px;
+}
+
+#toggle {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#toggle-all {
+    margin-left: -380px;
+    margin-top: 20px;
+    position: relative;
+    top: 40px;
+}
+
+#completed {
+    margin: 40px auto auto 35px;
+    float: left;
+}
+
+#uncompleted {
+    margin: 40px 35px auto auto;
+    float: right;
+}
+
+#toggle-all-completed {
+    margin-left: -150px;
+
+}
+
+#forToggle {
+    position: relative;
+    top: 40px;
 }

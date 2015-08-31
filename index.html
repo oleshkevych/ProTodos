@@ -7,14 +7,24 @@
 <body>
     <div id="title"><p>Список дуже важливих справ</p></div>
     <div id="todosList">
-        <div id="list"></div>
+        <div id="list">
+            <input id="toggle" type="checkbox">
+            <ul id="todo-list"></ul>
+        </div>
     </div>
     <div id="buttons">
         <button id="delete" type="button">Видалити відмічену</button>
         <button id="deleteDone" type="button">Видалити зроблені</button>
+        <input id="toggle-all" type="checkbox">
+        <label id="forToggle">Відмітити всі</label>
+        <input id="toggle-all-completed" type="checkbox">
+        <label id="forToggleCompleted">Відмітити всі виконані</label>
+        <label id="completed">Виконано </label>
+        <label id="uncompleted">В процесі </label>
     </div>
 <script scr="model.js"></script>
 <script scr="backbone.js"></script>
 <script scr="jquery-2.1.4.min.js"></script>
 <script scr="underscore.js"></script>
+<script scr="View.js"></script>
 </body>
