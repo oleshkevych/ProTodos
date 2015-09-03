@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8"/>
-    <title>myTodos</title>
+    <title>vovaTodos</title>
     <link type="text/css" rel="stylesheet" href="style.css"/>
 </head>
 <body>
     <div id="title"><p>Список дуже важливих справ</p></div>
     <div id="todosList">
-        <div id="list">
-            <input id="toggle" type="checkbox">
-            <ul id="todo-list"></ul>
-        </div>
+
+            <input id="toggle" class="asList" type="checkbox">
+
+                <li id="todo-list" class="asList">
+                    <input type="text" id="todotext" class="asList" placeholder="Справа...">
+
+                </li>
+
+
     </div>
     <div id="buttons">
         <button id="delete" type="button">Видалити відмічену</button>
@@ -22,9 +27,13 @@
         <label id="completed">Виконано </label>
         <label id="uncompleted">В процесі </label>
     </div>
-<script scr="model.js"></script>
-<script scr="backbone.js"></script>
-<script scr="jquery-2.1.4.min.js"></script>
-<script scr="underscore.js"></script>
-<script scr="View.js"></script>
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="underscore.js"></script>
+    <script src="Backbone.js"></script>
+    <script src="model.js"></script>
+    <script src="View.js"></script>
+    <script src="app.js"></script>
+    <script src="collection.js"></script>
+
+
 </body>

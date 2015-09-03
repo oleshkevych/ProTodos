@@ -1,6 +1,7 @@
 *{
     font-family: arial, serif;
 }
+
 p{
     margin-right: auto;
     margin-left: auto;
@@ -9,6 +10,7 @@ p{
     font-size: x-large;
     background-color: rgb(255, 241, 150);
 }
+
 #todosList {
     background-color: rgb(240, 230, 140);
     margin: auto;
@@ -68,6 +70,10 @@ p{
     top: 40px;
 }
 
+.asList {
+    display:none;
+
+}
 #completed {
     margin: 40px auto auto 35px;
     float: left;
