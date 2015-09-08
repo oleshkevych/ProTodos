@@ -5,4 +5,6 @@ var app = app || {};
 
 $(function(){
     new app.bigDivView();
+    new app.smallDivView();
+    new app.downDivView();
 });

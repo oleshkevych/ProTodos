@@ -8,24 +8,27 @@
     <div id="title"><p>Список дуже важливих справ</p></div>
     <div id="todosList">
 
-            <input id="toggle" class="asList" type="checkbox">
+
 
                 <li id="todo-list" class="asList">
                     <input type="text" id="todotext" class="asList" placeholder="Справа...">
 
                 </li>
+        <div id="newTodoList">
+
+        </div>
+
+
 
 
     </div>
     <div id="buttons">
         <button id="delete" type="button">Видалити відмічену</button>
         <button id="deleteDone" type="button">Видалити зроблені</button>
-        <input id="toggle-all" type="checkbox">
+        <input id="Toggle" type="checkbox">
         <label id="forToggle">Відмітити всі</label>
-        <input id="toggle-all-completed" type="checkbox">
-        <label id="forToggleCompleted">Відмітити всі виконані</label>
-        <label id="completed">Виконано </label>
-        <label id="uncompleted">В процесі </label>
+        <label id="completed">Виконані: <span id="compl"> </span></label>
+        <label id="uncompleted">В процесі: <span id="uncompl"> </span></label>
     </div>
     <script src="jquery-2.1.4.min.js"></script>
     <script src="underscore.js"></script>
@@ -34,6 +37,5 @@
     <script src="View.js"></script>
     <script src="app.js"></script>
     <script src="collection.js"></script>
-
-
+    <script src="downMenu.js"></script>
 </body>

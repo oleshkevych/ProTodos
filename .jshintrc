@@ -1,0 +1,20 @@
+{
+  strict: true,
+  noempty: true,
+  noarg: true,
+  eqeqeq: true,
+  jquery: true,
+  browser: true,
+  bitwise: true,
+  curly: true,
+  undef: true,
+  nonew: true,
+  forin: true,
+  predef: [
+    "Backbone",
+    "$",
+    "jQuery",
+    "_",
+    "console"
+  ]
+}

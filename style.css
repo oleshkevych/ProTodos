@@ -50,20 +50,12 @@ p{
 }
 
 #title {
-    margin-top: auto;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 50px;
+    margin: auto auto 50px;
     height: inherit;
     width: 450px;
 }
 
-#toggle {
-    margin-left: 20px;
-    margin-top: 20px;
-}
-
-#toggle-all {
+#Toggle {
     margin-left: -380px;
     margin-top: 20px;
     position: relative;
@@ -84,7 +76,7 @@ p{
     float: right;
 }
 
-#toggle-all-completed {
+#ToggleCompleted {
     margin-left: -150px;
 
 }
@@ -92,4 +84,16 @@ p{
 #forToggle {
     position: relative;
     top: 40px;
+}
+
+#todotext {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#destroy{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border: 1px solid black;
 }
