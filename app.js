@@ -3,8 +3,10 @@
  */
 var app = app || {};
 
-$(function(){
+$(function () {
     new app.bigDivView();
     new app.smallDivView();
     new app.downDivView();
+
+    Backbone.history.start();
 });

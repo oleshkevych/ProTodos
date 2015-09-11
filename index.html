@@ -5,37 +5,40 @@
     <link type="text/css" rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <div id="title"><p>Список дуже важливих справ</p></div>
-    <div id="todosList">
-
-
-
-                <li id="todo-list" class="asList">
-                    <input type="text" id="todotext" class="asList" placeholder="Справа...">
-
-                </li>
-        <div id="newTodoList">
-
-        </div>
-
-
-
-
+<div id="title"><p>Список дуже важливих справ</p></div>
+<div id="todosList">
+    <div id="container">
+        <li id="todo-list" class="asList">
+       <span class="input inputminoru" class="asList">
+					<input class="input__field input__fieldyoko asList" type="text"
+                           id="todotext"/>
+					<label class="input__label input__labelyoko asList" for="todotext">
+                        <span class="input__labelcontent input__labelcontentyoko asList">Справа...</span>
+                    </label>
+				</span>
+        </li>
     </div>
-    <div id="buttons">
-        <button id="delete" type="button">Видалити відмічену</button>
-        <button id="deleteDone" type="button">Видалити зроблені</button>
-        <input id="Toggle" type="checkbox">
-        <label id="forToggle">Відмітити всі</label>
-        <label id="completed">Виконані: <span id="compl"> </span></label>
-        <label id="uncompleted">В процесі: <span id="uncompl"> </span></label>
-    </div>
-    <script src="jquery-2.1.4.min.js"></script>
-    <script src="underscore.js"></script>
-    <script src="Backbone.js"></script>
-    <script src="model.js"></script>
-    <script src="View.js"></script>
-    <script src="app.js"></script>
-    <script src="collection.js"></script>
-    <script src="downMenu.js"></script>
+    <div id="space"></div>
+    <div id="newTodoList"></div>
+</div>
+<div id="buttons">
+    <button id="delete" type="button">Видалити відмічену</button>
+    <button id="deleteDone" type="button">Видалити зроблені</button>
+    <input id="Toggle" type="checkbox">
+    <label for="Toggle" id="forToggle">Відмітити всі</label>
+    <label id="completed">Виконані: <span id="compl"> </span></label>
+    <label id="uncompleted">В процесі: <span id="uncompl"> </span></label>
+</div>
+
+<script src="jquery-2.1.4.js"></script>
+<script src="underscore.js"></script>
+<script src="backbone.js"></script>
+<script src="backbone.localStorage.js"></script>
+<script src="model.js"></script>
+<script src="View.js"></script>
+<script src="collection.js"></script>
+<script src="downMenu.js"></script>
+<script src="app.js"></script>
+
+
 </body>

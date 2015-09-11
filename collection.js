@@ -8,17 +8,19 @@ var app = app || {};
 
     var Todos = Backbone.Collection.extend({
         model: app.todo,
-        //localStorage: new Backbone.LocalStorage('todos-backbone'),
+
+        localStorage: new Backbone.LocalStorage('todos'),
+
         completed: function () {
-            return this.where({complete: true});
+            return this.filter(function (todo) {
+                return todo.get('completed');
+            });
         },
-        remaining: function () {
-            return this.where({complete: false});
-        },
+
         nextOrder: function () {
             return this.length ? this.last().get('order') + 1 : 1;
         },
-        comparator: function() {
+        comparator: function () {
             return this.get('order');
         }
     });
